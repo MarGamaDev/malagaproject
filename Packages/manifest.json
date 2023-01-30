@@ -1,7 +1,11 @@
 {
   "dependencies": {
     "com.unity.collab-proxy": "1.17.7",
+<<<<<<< HEAD
+    "com.unity.feature.2d": "1.0.0",
+=======
     "com.unity.feature.development": "1.0.1",
+>>>>>>> de8c6ce9527427cc2c1b6933cee4922681b351fd
     "com.unity.ide.rider": "3.0.18",
     "com.unity.ide.visualstudio": "2.0.17",
     "com.unity.ide.vscode": "1.2.5",
