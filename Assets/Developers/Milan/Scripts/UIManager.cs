@@ -7,22 +7,6 @@ public class UIManager : MonoBehaviour
 {
     [Header("Refrences.")]
     [SerializeField] private TextMeshProUGUI _currencyDisplay;
-    private CurrencyManager _currencyManager;
-
-    /// <summary>
-    /// Gets the Currency manager.
-    /// </summary>
-    private void Awake()
-    {
-        if (TryGetComponent(out CurrencyManager currencyMG))
-        {
-            _currencyManager = currencyMG;
-        }
-        else
-        {
-            _currencyManager = FindObjectOfType<CurrencyManager>();
-        }
-    }
 
     private void Start()
     {
@@ -34,6 +18,6 @@ public class UIManager : MonoBehaviour
     /// </summary>
     public void UpdateCurrencyValue()
     {
-        _currencyDisplay.text = _currencyManager.Currency.ToString(",");
+        _currencyDisplay.text = CurrencyManager.Instance.Currency.ToString();
     }
 }

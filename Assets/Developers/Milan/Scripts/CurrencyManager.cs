@@ -7,9 +7,23 @@ public class CurrencyManager : MonoBehaviour
     public float Currency;
 
     [Header("Refrences.")]
+    public static CurrencyManager Instance;
     private UIManager _uiManager;
 
     private void Awake()
+    {
+        if (Instance != this && Instance != null)
+        {
+            Object.Destroy(this.gameObject);
+        }
+        else
+        {
+            DontDestroyOnLoad(this.gameObject);
+            Instance = this;
+        }
+    }
+
+    private void Start()
     {
         if (TryGetComponent(out UIManager uiMG))
         {
