@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c4d922c1ad5a424a80a9d0d6bcff9b9, type: 3}
+  m_Name: Bakker
+  m_EditorClassIdentifier: 
+  Dialogue:
+  - If you want to make a bread listen up!
+  - First you will need to go to the store.
+  - And then just buy a bread.
+  WordSpeed: 0.04
+  CharacterName: Bakker
+  CharacterImage: {fileID: 21300000, guid: 0f061b4bd0275bc4eb60f2af31e7375a, type: 3}
