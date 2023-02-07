@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2c4d922c1ad5a424a80a9d0d6bcff9b9, type: 3}
-  m_Name: Bakker
+  m_Name: Bij
   m_EditorClassIdentifier: 
   Dialogue:
-  - If you want to make a bread listen up!
-  - First you will need to go to the store.
-  - And then just buy a bread.
-  WordSpeed: 0.04
-  CharacterName: Bakker
-  CharacterImage: {fileID: 21300000, guid: 0f061b4bd0275bc4eb60f2af31e7375a, type: 3}
+  - Hi, i'm buzzzy worker Bee.
+  - If you're working to much it's important to take breaks!
+  - So make sure you do that!
+  WordSpeed: 0.05
+  CharacterName: Bee
+  CharacterImage: {fileID: 21300000, guid: e839b3d2f0a1aad4dadda703fd770f91, type: 3}
