@@ -8,6 +8,7 @@ public class ChatSystem : MonoBehaviour
 {
     [Header("Refrences.")]
     [SerializeField] private DialogueData _dialogueData;
+
     [SerializeField] private GameObject _dialoguePanel;
     [SerializeField] private TextMeshProUGUI _dialogueText;
     [SerializeField] private GameObject _continueButton;
